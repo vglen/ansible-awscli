@@ -15,7 +15,7 @@ Role Variables
 Example Playbook
 ----------------
 
-- hosts: all
+- hosts: all  
   roles:
     - vglen.ansible-awscli
 ```
