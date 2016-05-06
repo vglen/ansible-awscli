@@ -1,0 +1,9 @@
+---
+
+  - name: 'Install CLI tools for AWS on OS X'
+    homebrew:
+      name="{{ item }}"
+      state=present
+      update_homebrew=yes
+    with_items:
+      - awscli
